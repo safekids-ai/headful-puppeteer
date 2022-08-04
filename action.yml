@@ -1,0 +1,9 @@
+name: 'Chrome extension testing with Puppeteer'
+author: 'Abbas Valliani, abbas@safekids.ai'
+description: 'A github action to use headful Puppeteer with Chrome Extensions'
+branding:
+  icon: 'thumbs-up'
+  color: 'white'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
